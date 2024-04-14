@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 git clone https:----gemstone-price-prediction.git  
 dir  
 cd gemstone-price-prediction  
@@ -36,3 +37,43 @@ source activate ./env
 pip install -r requirements_dev.txt
 
 
+=======
+git clone https:----gemstone-price-prediction.git  
+dir  
+cd gemstone-price-prediction  
+code .
+
+touch requirements_dev.txt  
+touch requirements.txt  
+touch init_setup.sh  
+<
+
+echo [$(date)]: "START"
+
+
+echo [$(date)]: "creating env with python 3.9 version" 
+
+
+conda create --prefix ./env python=3.9 -y
+
+
+echo [$(date)]: "activating the environment" 
+
+source activate ./env
+
+echo [$(date)]: "installing the dev requirements" 
+
+pip install -r requirements_dev.txt
+
+echo [$(date)]: "END" 
+>
+
+
+bash init_setup.sh  
+source activate ./env  
+
+// working on experiments.ipynb //
+pip install -r requirements_dev.txt
+
+
+>>>>>>> ba79958cdb8ea66d1873715af2d1cd887d7b5ba4
