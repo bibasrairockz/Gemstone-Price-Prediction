@@ -35,11 +35,13 @@ source activate ./env
 // working on experiments.ipynb //
 pip install -r requirements_dev.txt
 
-
+***
 //wrote exception and logger files inside src//
 
 pip install -r requirements_dev.txt
 python setup.py install
 
 python src\\pipeline\\training_pipeline.py
+
+***
 
