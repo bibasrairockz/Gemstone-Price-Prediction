@@ -44,4 +44,12 @@ python setup.py install
 python src\\pipeline\\training_pipeline.py
 
 ***
+//wrote model training, prediction, templates, app files//
 
+***
+//modle +_evaluation with mlflow codes in it, updated training_pipeline//
+pip uninstall GemstonePricePrediction  
+pip install -r requirements_dev.txt
+python src\\pipeline\\training_pipeline.py  
+
+***
